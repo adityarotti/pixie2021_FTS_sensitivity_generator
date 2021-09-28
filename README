@@ -1,1 +1,2 @@
-
+See the example plotting script and the variable definitions inside the file get_pixie2021_sensitivity to understand how to use the generator.
+You should be able to run the plotting script, which saves a file in the folder "figures"
