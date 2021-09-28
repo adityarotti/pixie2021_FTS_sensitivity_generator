@@ -8,6 +8,7 @@ def get_pixie2021_sensitivity(hfscfg=[12,6,2],frac=[0.2,0.4],years=2.,fsky=0.7,s
 		frac : fraction of time spent in each mode. Only two time fractions are input by user. SUM frac = 1 used to constrain others.
 		years : 2 - Baseline PIXIE
 		sdfrac : Fraction of time spent in SD mode (10% time assumed for calibration.)
+		fsky : Assumed fraction of the sky for the final analysis
 		returnbw : Currently a dummy variable.
 		skipch : Default is true, which skips intermediate channels with worse sensitivity. Setting to false, depending on the combination of HFS cfg's may return a highly oscillators sensitivity curve owing to intermediate channels observed at relatively poor sensitivities.
 		'''
