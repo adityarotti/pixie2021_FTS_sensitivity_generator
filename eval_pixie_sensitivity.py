@@ -5,7 +5,7 @@ datapath = os.path.join(os.path.dirname(__file__),"indata")
 def get_pixie2021_sensitivity(hfscfg=[12,6,2],frac=[0.2,0.4],years=2.,fsky=0.7,sdfrac=0.45,return_bw=False,skipch=True):
 		'''
 		hfscfg : a list of three HFS configurations
-		frac : fraction of time spent in each mode. Only two time fractions are input by user. SUM frac = 1 used to constrain others.
+		frac : fraction of time spent in each mode. Only two time fractions are input by user. SUM frac = 1 used to constrain others. **Ensure the input fractions do not add to greater than unity.**
 		years : 2 - Baseline PIXIE
 		sdfrac : Fraction of time spent in SD mode (10% time assumed for calibration.)
 		fsky : Assumed fraction of the sky for the final analysis
